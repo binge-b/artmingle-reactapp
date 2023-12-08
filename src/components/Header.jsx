@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,10 +10,10 @@ const Header = () => {
       </a>
       {/* React-router-domする */}
       <nav className="md:ml-auto text-base">
-        <a href="#pickup" className="mr-5 hover:text-blue-400 duration-300">PickUp</a>
-        <a href="#latest" className="mr-5 hover:text-blue-400 duration-300">Latest</a>
-        <a href="#report" className="mr-5 hover:text-blue-400 duration-300">Report</a>
-        <a href="#login" className="hover:text-blue-400 duration-300">Login</a>
+        <Link to="/Home"><a href="#homepage" className="mr-5 hover:text-blue-400 duration-300">PickUp</a></Link>
+        <Link to="/Interview"><a href="#interview" className="mr-5 hover:text-blue-400 duration-300">Interview</a></Link>
+        <Link to="/Review"><a href="#homepage" className="mr-5 hover:text-blue-400 duration-300">Review</a></Link>
+        <Link to="/Login"><a href="#login" className="hover:text-blue-400 duration-300">Login</a></Link>
       </nav>
     </div>
     </header>
