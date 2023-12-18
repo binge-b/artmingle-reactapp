@@ -9,7 +9,8 @@ const HomePage = () => {
       <div className="flex container mx-auto py-5 px-5 flex-col md:flex-row items-center">
       <div className="md:w-1/2 flex-grow mb-5 lg:pr-24 md:pr-16 text-center md:text-left">
         <h1 className="text-xl sm:text-3xl text-gray-900 font-medium mb-4">
-          フィルターレスなArtの扉、知ってるテーマも新発見もすべて手中に。
+          フィルターレスなArtの扉
+          <br />知ってるテーマも新発見もすべて手中に。
         </h1>
         <p className="mb-8 leadeing-relaxed">
           世界を広げたいですか？ いまのあなたの観たいをPickup! <br />
@@ -34,9 +35,9 @@ const HomePage = () => {
     </section>
 
     {/* pickupエリア */}
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
       {/* 記事カード */}
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i01.jpg" alt="" className="object-cover"/>
         </a>
@@ -44,7 +45,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>アクターの微光：子どもからアバターまで、足元の生命と次世代のつながり</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -57,7 +58,7 @@ const HomePage = () => {
 
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i26.jpg" alt="" />
         </a>
@@ -65,7 +66,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>デジタル・クオンタム：光の幻想と個体の躍動</h3>
           </a>
           <p className="text-gray-700">2023.3.29まで</p>
@@ -77,7 +78,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i03.jpg" alt="" />
         </a>
@@ -85,7 +86,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>Digital Auction: アート・フューチャーのNFT&DAOアートバーゼル</h3>
           </a>
           <p className="text-gray-700">2023.1.10-19まで</p>
@@ -97,7 +98,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i04.jpg" alt="" className="object-cover"/>
         </a>
@@ -105,7 +106,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>Dialogue with AI：デジタル・キャンバスの探索</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -117,7 +118,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i05.jpg" alt="" />
         </a>
@@ -125,7 +126,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>Weaving Dreams, Spinning Futures:AIと持続可能な質感の詩学</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -137,7 +138,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i33.jpg" alt="" />
         </a>
@@ -145,7 +146,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>星屑のアーキテクチャ：Building Algorithmic Dialogues with Earth</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -156,7 +157,7 @@ const HomePage = () => {
           <LikeButton />
         </div>
       </article>
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i07.jpg" alt="" className="object-cover"/>
         </a>
@@ -164,7 +165,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -176,7 +177,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i08.jpg" alt="" />
         </a>
@@ -184,7 +185,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -196,7 +197,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i09.jpg" alt="" />
         </a>
@@ -204,7 +205,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -215,7 +216,7 @@ const HomePage = () => {
           <LikeButton />
         </div>
       </article>
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i10.jpg" alt="" className="object-cover"/>
         </a>
@@ -223,7 +224,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -235,7 +236,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i11.jpg" alt="" />
         </a>
@@ -243,7 +244,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -255,7 +256,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i35.jpg" alt="" />
         </a>
@@ -263,7 +264,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -274,7 +275,7 @@ const HomePage = () => {
           <LikeButton />
         </div>
       </article>
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i13.jpg" alt="" className="object-cover"/>
         </a>
@@ -282,7 +283,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -294,7 +295,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i14.jpg" alt="" />
         </a>
@@ -302,7 +303,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -314,7 +315,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i27.jpg" alt="" />
         </a>
@@ -322,7 +323,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -333,7 +334,7 @@ const HomePage = () => {
           <LikeButton />
         </div>
       </article>
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i34.jpg" alt="" className="object-cover"/>
         </a>
@@ -341,7 +342,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -353,7 +354,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i17.jpg" alt="" />
         </a>
@@ -361,7 +362,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -373,7 +374,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i19.jpg" alt="" />
         </a>
@@ -381,7 +382,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -392,7 +393,7 @@ const HomePage = () => {
           <LikeButton />
         </div>
       </article>
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i29.jpg" alt="" className="object-cover"/>
         </a>
@@ -400,7 +401,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -412,7 +413,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadowpy-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i21.jpg" alt="" />
         </a>
@@ -420,7 +421,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -432,7 +433,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i22.jpg" alt="" />
         </a>
@@ -440,7 +441,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -451,7 +452,7 @@ const HomePage = () => {
           <LikeButton />
         </div>
       </article>
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i23.jpg" alt="" className="object-cover"/>
         </a>
@@ -459,7 +460,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -471,7 +472,7 @@ const HomePage = () => {
         </div>
       </article>
 
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i30.jpg" alt="" />
         </a>
@@ -479,7 +480,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
@@ -491,7 +492,7 @@ const HomePage = () => {
         </div>
       </article>
       
-      <article className="shadow py-4 px-4 w-full">
+      <article className="shadow py-2 px-2 w-full">
         <a href="#" className="hover:opacity-75 duration-300">
           <img src="./img/i25.jpg" alt="" />
         </a>
@@ -499,7 +500,7 @@ const HomePage = () => {
           <a href="#" className="text-blue-600 pb-4 font-bold">
             Installation
           </a>
-          <a href="#" className="text-gray-900 text-3xl font-bold hover:text-gray-600  duration-300 pb-4">
+          <a href="#" className="text-gray-900 text-lg font-bold hover:text-gray-600  duration-300 pb-4">
             <h3>光のインスタレーション</h3>
           </a>
           <p className="text-gray-700">2023.1.29まで</p>
